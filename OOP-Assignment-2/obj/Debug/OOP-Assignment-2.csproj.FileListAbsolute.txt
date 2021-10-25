@@ -1,0 +1,10 @@
+X:\School\Visual Studio\Repository\OOP-Assignment-2\OOP-Assignment-2\OOP-Assignment-2\bin\Debug\OOP-Assignment-2.exe.config
+X:\School\Visual Studio\Repository\OOP-Assignment-2\OOP-Assignment-2\OOP-Assignment-2\bin\Debug\OOP-Assignment-2.exe
+X:\School\Visual Studio\Repository\OOP-Assignment-2\OOP-Assignment-2\OOP-Assignment-2\bin\Debug\OOP-Assignment-2.pdb
+X:\School\Visual Studio\Repository\OOP-Assignment-2\OOP-Assignment-2\OOP-Assignment-2\obj\Debug\OOP-Assignment-2.csproj.AssemblyReference.cache
+X:\School\Visual Studio\Repository\OOP-Assignment-2\OOP-Assignment-2\OOP-Assignment-2\obj\Debug\OOP_Assignment_2.Form1.resources
+X:\School\Visual Studio\Repository\OOP-Assignment-2\OOP-Assignment-2\OOP-Assignment-2\obj\Debug\OOP_Assignment_2.Properties.Resources.resources
+X:\School\Visual Studio\Repository\OOP-Assignment-2\OOP-Assignment-2\OOP-Assignment-2\obj\Debug\OOP-Assignment-2.csproj.GenerateResource.cache
+X:\School\Visual Studio\Repository\OOP-Assignment-2\OOP-Assignment-2\OOP-Assignment-2\obj\Debug\OOP-Assignment-2.csproj.CoreCompileInputs.cache
+X:\School\Visual Studio\Repository\OOP-Assignment-2\OOP-Assignment-2\OOP-Assignment-2\obj\Debug\OOP-Assignment-2.exe
+X:\School\Visual Studio\Repository\OOP-Assignment-2\OOP-Assignment-2\OOP-Assignment-2\obj\Debug\OOP-Assignment-2.pdb
