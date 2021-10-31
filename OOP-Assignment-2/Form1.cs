@@ -13,54 +13,111 @@ namespace OOP_Assignment_2
     public partial class Form1 : Form
     {
         public Form1()
+
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void DisplayBox_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-
-        private void button2_Click(object sender, EventArgs e)
+        private void btn1_Click(object sender, EventArgs e)
         {
-
+            if(DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + "1";
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void btn2_Click(object sender, EventArgs e)
         {
-
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + "2";
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void btn3_Click(object sender, EventArgs e)
         {
-
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + "3";
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void btn4_Click(object sender, EventArgs e)
         {
-
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + "4";
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btn5_Click(object sender, EventArgs e)
         {
-
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + "5";
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        private void btn6_Click(object sender, EventArgs e)
         {
-
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + "6";
         }
 
-        private void button33_Click(object sender, EventArgs e)
+        private void btn7_Click(object sender, EventArgs e)
         {
-
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + "7";
         }
 
-        private void button38_Click(object sender, EventArgs e)
+        private void btn8_Click(object sender, EventArgs e)
         {
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + "8";
+        }
 
+        private void btn9_Click(object sender, EventArgs e)
+        {
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + "9";
+        }
+
+        private void btn0_Click(object sender, EventArgs e)
+        {
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + "0";
+        }
+
+        private void btnDel_Click(object sender, EventArgs e)
+        {
+            if(DisplayBox.Text!="")
+            {
+                DisplayBox.Text = DisplayBox.Text.Substring(0, DisplayBox.Text.Length - 1);
+            }
         }
     }
 }
