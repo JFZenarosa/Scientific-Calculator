@@ -119,5 +119,148 @@ namespace OOP_Assignment_2
                 DisplayBox.Text = DisplayBox.Text.Substring(0, DisplayBox.Text.Length - 1);
             }
         }
+
+        private void btnDot_Click(object sender, EventArgs e)
+        {
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + ".";
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + "+";
+        }
+
+        private void btnSubtract_Click(object sender, EventArgs e)
+        {
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + "-";
+        }
+
+        private void btnMultiply_Click(object sender, EventArgs e)
+        {
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + "*";
+        }
+
+        private void btnDivide_Click(object sender, EventArgs e)
+        {
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + "/";
+        }
+
+        private void btnPercentage_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLog_Click(object sender, EventArgs e)
+        {
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + "log(";
+        }
+
+        private void btnOpenBrack_Click(object sender, EventArgs e)
+        {
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + "(";
+        }
+
+        private void btnCloseBrack_Click(object sender, EventArgs e)
+        {
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + ")";
+        }
+
+        private void btnSin_Click(object sender, EventArgs e)
+        {
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + "sin(";
+        }
+
+        private void btnCos_Click(object sender, EventArgs e)
+        {
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + "cos(";
+        }
+
+        private void btnTan_Click(object sender, EventArgs e)
+        {
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + "tan(";
+        }
+
+        private void btnTanh_Click(object sender, EventArgs e)
+        {
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + "tanh(";
+        }
+
+        private void btnCosh_Click(object sender, EventArgs e)
+        {
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + "cosh(";
+        }
+
+        private void btnSinh_Click(object sender, EventArgs e)
+        {
+            if (DisplayBox.Text == "0")
+            {
+                DisplayBox.Text = "";
+            }
+            DisplayBox.Text = DisplayBox.Text + "sinh(";
+        }
+
+        private void btnClearEnt_Click(object sender, EventArgs e)
+        {
+            DisplayBox.Text = "0";
+            DisplayBox.Text = "";
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            DisplayBox.Text = "0";
+            DisplayBox.Text = "";
+        }
     }
 }

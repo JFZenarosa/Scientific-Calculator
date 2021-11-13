@@ -119,6 +119,7 @@ namespace OOP_Assignment_2
             this.btnPercentage.TabIndex = 2;
             this.btnPercentage.Text = "%";
             this.btnPercentage.UseVisualStyleBackColor = true;
+            this.btnPercentage.Click += new System.EventHandler(this.btnPercentage_Click);
             // 
             // btn
             // 
@@ -167,6 +168,7 @@ namespace OOP_Assignment_2
             this.btnDivide.TabIndex = 7;
             this.btnDivide.Text = "/";
             this.btnDivide.UseVisualStyleBackColor = true;
+            this.btnDivide.Click += new System.EventHandler(this.btnDivide_Click);
             // 
             // btnMultiply
             // 
@@ -177,6 +179,7 @@ namespace OOP_Assignment_2
             this.btnMultiply.TabIndex = 8;
             this.btnMultiply.Text = "*";
             this.btnMultiply.UseVisualStyleBackColor = true;
+            this.btnMultiply.Click += new System.EventHandler(this.btnMultiply_Click);
             // 
             // btnSubtract
             // 
@@ -187,6 +190,7 @@ namespace OOP_Assignment_2
             this.btnSubtract.TabIndex = 9;
             this.btnSubtract.Text = "-";
             this.btnSubtract.UseVisualStyleBackColor = true;
+            this.btnSubtract.Click += new System.EventHandler(this.btnSubtract_Click);
             // 
             // btnAdd
             // 
@@ -197,6 +201,7 @@ namespace OOP_Assignment_2
             this.btnAdd.TabIndex = 10;
             this.btnAdd.Text = "+";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnDot
             // 
@@ -207,6 +212,7 @@ namespace OOP_Assignment_2
             this.btnDot.TabIndex = 16;
             this.btnDot.Text = ".";
             this.btnDot.UseVisualStyleBackColor = true;
+            this.btnDot.Click += new System.EventHandler(this.btnDot_Click);
             // 
             // btn3
             // 
@@ -246,6 +252,7 @@ namespace OOP_Assignment_2
             this.btnClear.TabIndex = 12;
             this.btnClear.Text = "C";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnMS
             // 
@@ -304,6 +311,7 @@ namespace OOP_Assignment_2
             this.btnClearEnt.TabIndex = 18;
             this.btnClearEnt.Text = "CE";
             this.btnClearEnt.UseVisualStyleBackColor = true;
+            this.btnClearEnt.Click += new System.EventHandler(this.btnClearEnt_Click);
             // 
             // btnMR
             // 
@@ -322,6 +330,7 @@ namespace OOP_Assignment_2
             this.btnCloseBrack.TabIndex = 28;
             this.btnCloseBrack.Text = ")";
             this.btnCloseBrack.UseVisualStyleBackColor = true;
+            this.btnCloseBrack.Click += new System.EventHandler(this.btnCloseBrack_Click);
             // 
             // btn1
             // 
@@ -419,6 +428,7 @@ namespace OOP_Assignment_2
             this.btnLog.TabIndex = 37;
             this.btnLog.Text = "log";
             this.btnLog.UseVisualStyleBackColor = true;
+            this.btnLog.Click += new System.EventHandler(this.btnLog_Click);
             // 
             // btnCube
             // 
@@ -458,6 +468,7 @@ namespace OOP_Assignment_2
             this.btnOpenBrack.TabIndex = 33;
             this.btnOpenBrack.Text = "(";
             this.btnOpenBrack.UseVisualStyleBackColor = true;
+            this.btnOpenBrack.Click += new System.EventHandler(this.btnOpenBrack_Click);
             // 
             // btnMod
             // 
@@ -476,6 +487,7 @@ namespace OOP_Assignment_2
             this.btnTan.TabIndex = 41;
             this.btnTan.Text = "tan";
             this.btnTan.UseVisualStyleBackColor = true;
+            this.btnTan.Click += new System.EventHandler(this.btnTan_Click);
             // 
             // btnCos
             // 
@@ -485,6 +497,7 @@ namespace OOP_Assignment_2
             this.btnCos.TabIndex = 40;
             this.btnCos.Text = "cos";
             this.btnCos.UseVisualStyleBackColor = true;
+            this.btnCos.Click += new System.EventHandler(this.btnCos_Click);
             // 
             // btnSin
             // 
@@ -494,6 +507,7 @@ namespace OOP_Assignment_2
             this.btnSin.TabIndex = 39;
             this.btnSin.Text = "sin";
             this.btnSin.UseVisualStyleBackColor = true;
+            this.btnSin.Click += new System.EventHandler(this.btnSin_Click);
             // 
             // btnLn
             // 
@@ -521,6 +535,7 @@ namespace OOP_Assignment_2
             this.btnTanh.TabIndex = 46;
             this.btnTanh.Text = "tanh";
             this.btnTanh.UseVisualStyleBackColor = true;
+            this.btnTanh.Click += new System.EventHandler(this.btnTanh_Click);
             // 
             // btnCosh
             // 
@@ -530,6 +545,7 @@ namespace OOP_Assignment_2
             this.btnCosh.TabIndex = 45;
             this.btnCosh.Text = "cosh";
             this.btnCosh.UseVisualStyleBackColor = true;
+            this.btnCosh.Click += new System.EventHandler(this.btnCosh_Click);
             // 
             // btnSinh
             // 
@@ -539,6 +555,7 @@ namespace OOP_Assignment_2
             this.btnSinh.TabIndex = 44;
             this.btnSinh.Text = "sinh";
             this.btnSinh.UseVisualStyleBackColor = true;
+            this.btnSinh.Click += new System.EventHandler(this.btnSinh_Click);
             // 
             // btnInv
             // 
