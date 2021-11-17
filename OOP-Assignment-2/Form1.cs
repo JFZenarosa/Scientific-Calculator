@@ -122,8 +122,76 @@ namespace OOP_Assignment_2
         private void btnLog_Click(object sender, EventArgs e)
         {
             double alog = Double.Parse(DisplayBox.Text);
+            DisplayBox2.Text = System.Convert.ToString("log" + "(" + (DisplayBox.Text) + ")");
             alog = Math.Log10(alog);
             DisplayBox.Text = System.Convert.ToString(alog);
+            
+        }
+
+        private void btnSqrRoot_Click(object sender, EventArgs e)
+        {
+            double sqroot = Double.Parse(DisplayBox.Text);
+            DisplayBox2.Text = System.Convert.ToString("√" + (DisplayBox.Text));
+            sqroot = Math.Sqrt(sqroot);
+            DisplayBox.Text = System.Convert.ToString(sqroot);
+        }
+
+        private void btnCubeRoot_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSinh_Click(object sender, EventArgs e)
+        {
+            double aSinh = Double.Parse(DisplayBox.Text);
+            DisplayBox2.Text = System.Convert.ToString("sinh" + "(" + (DisplayBox.Text) + ")");
+            aSinh = Math.Sinh(aSinh);
+            DisplayBox.Text = System.Convert.ToString(aSinh);
+        }
+
+        private void btnCosh_Click(object sender, EventArgs e)
+        {
+            double aCosh = Double.Parse(DisplayBox.Text);
+            DisplayBox2.Text = System.Convert.ToString("cosh" + "(" + (DisplayBox.Text) + ")");
+            aCosh = Math.Cosh(aCosh);
+            DisplayBox.Text = System.Convert.ToString(aCosh);
+        }
+
+        private void btnTanh_Click(object sender, EventArgs e)
+        {
+            double aTanh = Double.Parse(DisplayBox.Text);
+            DisplayBox2.Text = System.Convert.ToString("tanh" + "(" + (DisplayBox.Text) + ")");
+            aTanh = Math.Tanh(aTanh);
+            DisplayBox.Text = System.Convert.ToString(aTanh);
+        }
+
+        private void btnSin_Click(object sender, EventArgs e)
+        {
+            double aSin = Double.Parse(DisplayBox.Text);
+            DisplayBox2.Text = System.Convert.ToString("sin" + "(" + (DisplayBox.Text) + ")");
+            aSin = Math.Sin(aSin);
+            DisplayBox.Text = System.Convert.ToString(aSin);
+        }
+
+        private void btnCos_Click(object sender, EventArgs e)
+        {
+            double aCos = Double.Parse(DisplayBox.Text);
+            DisplayBox2.Text = System.Convert.ToString("cos" + "(" + (DisplayBox.Text) + ")");
+            aCos = Math.Cos(aCos);
+            DisplayBox.Text = System.Convert.ToString(aCos);
+        }
+
+        private void btnTan_Click(object sender, EventArgs e)
+        {
+            double aTan = Double.Parse(DisplayBox.Text);
+            DisplayBox2.Text = System.Convert.ToString("tan" + "(" + (DisplayBox.Text) + ")");
+            aTan = Math.Tan(aTan);
+            DisplayBox.Text = System.Convert.ToString(aTan);
+        }
+
+        private void btnSqr_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
