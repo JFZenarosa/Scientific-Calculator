@@ -113,5 +113,17 @@ namespace OOP_Assignment_2
                     break;
             }
         }
+
+        private void btnPi_Click(object sender, EventArgs e)
+        {
+            DisplayBox.Text = "3.141592653589976323";
+        }
+
+        private void btnLog_Click(object sender, EventArgs e)
+        {
+            double alog = Double.Parse(DisplayBox.Text);
+            alog = Math.Log10(alog);
+            DisplayBox.Text = System.Convert.ToString(alog);
+        }
     }
 }

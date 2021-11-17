@@ -81,7 +81,7 @@ namespace OOP_Assignment_2
             this.btnN = new System.Windows.Forms.Button();
             this.btnDms = new System.Windows.Forms.Button();
             this.btnInt = new System.Windows.Forms.Button();
-            this.button53 = new System.Windows.Forms.Button();
+            this.btnPi = new System.Windows.Forms.Button();
             this.DisplayBox = new System.Windows.Forms.TextBox();
             this.radioDegrees = new System.Windows.Forms.RadioButton();
             this.radioRadians = new System.Windows.Forms.RadioButton();
@@ -428,6 +428,7 @@ namespace OOP_Assignment_2
             this.btnLog.TabIndex = 37;
             this.btnLog.Text = "log";
             this.btnLog.UseVisualStyleBackColor = true;
+            this.btnLog.Click += new System.EventHandler(this.btnLog_Click);
             // 
             // btnCube
             // 
@@ -476,6 +477,7 @@ namespace OOP_Assignment_2
             this.btnMod.TabIndex = 42;
             this.btnMod.Text = "Mod";
             this.btnMod.UseVisualStyleBackColor = true;
+            this.btnMod.Click += new System.EventHandler(this.Arithmetic_Operator);
             // 
             // btnTan
             // 
@@ -521,6 +523,7 @@ namespace OOP_Assignment_2
             this.btnExp.TabIndex = 47;
             this.btnExp.Text = "Exp";
             this.btnExp.UseVisualStyleBackColor = true;
+            this.btnExp.Click += new System.EventHandler(this.Arithmetic_Operator);
             // 
             // btnTanh
             // 
@@ -594,13 +597,16 @@ namespace OOP_Assignment_2
             this.btnInt.Text = "Int";
             this.btnInt.UseVisualStyleBackColor = true;
             // 
-            // button53
+            // btnPi
             // 
-            this.button53.Location = new System.Drawing.Point(12, 184);
-            this.button53.Name = "button53";
-            this.button53.Size = new System.Drawing.Size(55, 32);
-            this.button53.TabIndex = 48;
-            this.button53.UseVisualStyleBackColor = true;
+            this.btnPi.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPi.Location = new System.Drawing.Point(12, 184);
+            this.btnPi.Name = "btnPi";
+            this.btnPi.Size = new System.Drawing.Size(55, 32);
+            this.btnPi.TabIndex = 48;
+            this.btnPi.Text = "π";
+            this.btnPi.UseVisualStyleBackColor = true;
+            this.btnPi.Click += new System.EventHandler(this.btnPi_Click);
             // 
             // DisplayBox
             // 
@@ -702,7 +708,7 @@ namespace OOP_Assignment_2
             this.Controls.Add(this.btnN);
             this.Controls.Add(this.btnDms);
             this.Controls.Add(this.btnInt);
-            this.Controls.Add(this.button53);
+            this.Controls.Add(this.btnPi);
             this.Controls.Add(this.btnExp);
             this.Controls.Add(this.btnTanh);
             this.Controls.Add(this.btnCosh);
@@ -812,7 +818,7 @@ namespace OOP_Assignment_2
         private System.Windows.Forms.Button btnN;
         private System.Windows.Forms.Button btnDms;
         private System.Windows.Forms.Button btnInt;
-        private System.Windows.Forms.Button button53;
+        private System.Windows.Forms.Button btnPi;
         private System.Windows.Forms.TextBox DisplayBox;
         private System.Windows.Forms.RadioButton radioDegrees;
         private System.Windows.Forms.RadioButton radioRadians;
