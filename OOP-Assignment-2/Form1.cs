@@ -12,6 +12,10 @@ namespace OOP_Assignment_2
 {
     public partial class Form1 : Form
     {
+        double results = 0;
+        string operation = "";
+        bool enter_value = false;
+
         public Form1()
 
         {
@@ -22,245 +26,92 @@ namespace OOP_Assignment_2
 
         }
 
-        private void btn1_Click(object sender, EventArgs e)
-        {
-            if(DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + "1";
-        }
 
-        private void btn2_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + "2";
-        }
-
-        private void btn3_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + "3";
-        }
-
-        private void btn4_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + "4";
-        }
-
-        private void btn5_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + "5";
-        }
-
-        private void btn6_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + "6";
-        }
-
-        private void btn7_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + "7";
-        }
-
-        private void btn8_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + "8";
-        }
-
-        private void btn9_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + "9";
-        }
-
-        private void btn0_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + "0";
-        }
-
-        private void btnDel_Click(object sender, EventArgs e)
-        {
-            if(DisplayBox.Text!="")
-            {
-                DisplayBox.Text = DisplayBox.Text.Substring(0, DisplayBox.Text.Length - 1);
-            }
-        }
-
-        private void btnDot_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + ".";
-        }
-
-        private void btnAdd_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + "+";
-        }
-
-        private void btnSubtract_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + "-";
-        }
-
-        private void btnMultiply_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + "*";
-        }
-
-        private void btnDivide_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + "/";
-        }
-
-        private void btnPercentage_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnLog_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + "log(";
-        }
-
-        private void btnOpenBrack_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + "(";
-        }
-
-        private void btnCloseBrack_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + ")";
-        }
-
-        private void btnSin_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + "sin(";
-        }
-
-        private void btnCos_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + "cos(";
-        }
-
-        private void btnTan_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + "tan(";
-        }
-
-        private void btnTanh_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + "tanh(";
-        }
-
-        private void btnCosh_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + "cosh(";
-        }
-
-        private void btnSinh_Click(object sender, EventArgs e)
-        {
-            if (DisplayBox.Text == "0")
-            {
-                DisplayBox.Text = "";
-            }
-            DisplayBox.Text = DisplayBox.Text + "sinh(";
-        }
 
         private void btnClearEnt_Click(object sender, EventArgs e)
         {
             DisplayBox.Text = "0";
-            DisplayBox.Text = "";
+            DisplayBox2.Text = "";
         }
 
         private void btnClear_Click(object sender, EventArgs e)
         {
             DisplayBox.Text = "0";
+            DisplayBox2.Text = "";
+        }
+
+        private void btnDel_Click(object sender, EventArgs e)
+        {
+            if (DisplayBox.Text.Length >0)
+            {
+                DisplayBox.Text = DisplayBox.Text.Remove(DisplayBox.Text.Length - 1, 1);
+            }
+
+            if (DisplayBox.Text == "")
+            {
+                DisplayBox.Text = "0";
+            }
+        }
+
+        private void Arithmetic_Operator(object sender, EventArgs e)
+        {
+            Button num = (Button)sender;
+            operation = num.Text;
+            results = Double.Parse(DisplayBox.Text);
             DisplayBox.Text = "";
+            DisplayBox2.Text = System.Convert.ToString(results) + " " + operation;
+        }
+
+
+
+        private void Button_Click(object sender, EventArgs e)
+        {
+            if ((DisplayBox.Text == "0") || (enter_value))
+                DisplayBox.Text = "";
+            enter_value = false;
+
+            Button num = (Button)sender;
+            if (num.Text == ".")
+            {
+                if (!DisplayBox.Text.Contains("."))
+                    DisplayBox.Text = DisplayBox.Text + num.Text;
+            }
+            else
+                DisplayBox.Text = DisplayBox.Text + num.Text;
+        }
+
+        private void btnEqual_Click(object sender, EventArgs e)
+        {
+            DisplayBox2.Text = "";
+            switch(operation)
+            {
+                case "+":
+                    DisplayBox.Text = (results + Double.Parse(DisplayBox.Text)).ToString();
+                    break;
+
+                case "-":
+                    DisplayBox.Text = (results - Double.Parse(DisplayBox.Text)).ToString();
+                    break;
+
+                case "*":
+                    DisplayBox.Text = (results * Double.Parse(DisplayBox.Text)).ToString();
+                    break;
+
+                case "/":
+                    DisplayBox.Text = (results / Double.Parse(DisplayBox.Text)).ToString();
+                    break;
+
+                case "Mod":
+                    DisplayBox.Text = (results % Double.Parse(DisplayBox.Text)).ToString();
+                    break;
+
+                case "Exp":
+                    double i = Double.Parse(DisplayBox.Text);
+                    double q;
+                    q = (results);
+                    DisplayBox.Text = Math.Exp(i * Math.Log(q * 4)).ToString();
+                    break;
+            }
         }
     }
 }
