@@ -191,6 +191,45 @@ namespace OOP_Assignment_2
 
         private void btnSqr_Click(object sender, EventArgs e)
         {
+            Double a;
+            a = Convert.ToDouble(DisplayBox.Text) * Convert.ToDouble(DisplayBox.Text);
+            DisplayBox.Text = System.Convert.ToString(a);
+        }
+
+       
+        
+
+        private void btnCube_Click(object sender, EventArgs e)
+        {
+            Double a;
+            a = Convert.ToDouble(DisplayBox.Text) * Convert.ToDouble(DisplayBox.Text) * Convert.ToDouble(DisplayBox.Text);
+            DisplayBox.Text = System.Convert.ToString(a);
+        }
+
+        private void btnLn_Click(object sender, EventArgs e)
+        {
+            double alog = Double.Parse(DisplayBox.Text);
+            DisplayBox2.Text = System.Convert.ToString("log" + "(" + (DisplayBox.Text) + ")");
+            alog = Math.Log(alog);
+            DisplayBox.Text = System.Convert.ToString(alog);
+        }
+
+        private void btnPercentage_Click(object sender, EventArgs e)
+        {
+            Double a;
+            a = Convert.ToDouble(DisplayBox.Text) / Convert.ToDouble(100);
+            DisplayBox.Text = System.Convert.ToString(a);
+        }
+
+        private void btn_Click(object sender, EventArgs e)
+        {
+            Double a;
+            a = Convert.ToDouble(1.0 / Convert.ToDouble(DisplayBox.Text));
+            DisplayBox.Text = System.Convert.ToString(a);
+        }
+
+        private void btnPower10_Click(object sender, EventArgs e)
+        {
 
         }
     }
